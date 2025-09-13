@@ -1,0 +1,209 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #3b3b3b #202020;
+}
+
+.skinHeader,
+html {
+    line-height: 1.35;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.emby-tab-button {
+  position: relative;
+  padding: 1em;
+  color: white;
+  font-size: 1.4em;
+}
+
+.backdropImage {
+  filter: blur(5px);
+}
+
+.layout-desktop .itemBackdrop::after {
+  background: rgba(0,0,0,0);
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.wizardStartForm,
+.ui-corner-all,
+.ui-shadow {
+    background-color: #101010;
+}
+
+.emby-collapsible-button {
+    border-color: rgba(255, 255, 255, 0.135);
+}
+
+.skinHeader-withBackground {
+    background: linear-gradient(180deg, rgba(0, 0, 0,0.9), rgba(0, 0, 0, 0.0));
+}
+
+.skinHeader.semiTransparent {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.paper-icon-button-light { 
+    border-radius: 0.5em;
+}
+
+div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
+  margin: 0;
+  padding-bottom: .2em;
+  padding-top: .9em;
+}
+
+.paper-icon-button-light > .material-icons {
+  font-size: 2.6695652174em;
+  position: relative;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.layout-desktop .detailPagePrimaryContainer {
+  padding-left: 26.45vw;
+  position: relative;
+}
+
+.itemName.parentNameLast {
+  margin: 0;
+}
+
+.infoText {
+  max-width: 100%;
+  min-width: 0;
+  text-align: left;
+}
+
+.itemName {
+  font-weight: 600;
+  margin: .5em 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.7em;
+}
+
+@media (min-width: 100em) {
+  .mainDetailButtons {
+    font-size: 170%;
+    margin: 1.25em 0;
+  }
+}
+
+.detailButton, .mainDetailButtons {
+  display: flex;
+}
+
+.mainDetailButtons {
+  align-items: center;
+  margin: 1em 0;
+}
+
+.detailPageContent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 26.45vw;
+  padding-right: 2%;
+}
+
+.layout-tv .skinHeader.semiTransparent {
+    background: none;
+}
+
+.pageTitleWithDefaultLogo {
+    background-image: url(../../assets/img/banner-light.png);
+}
+
+.layout-tv .pageTitleWithDefaultLogo {
+    background-image: url(../../assets/img/icon-transparent.png);
+}
+
+.backgroundContainer,
+.dialog,
+.nowPlayingPlaylist,
+.nowPlayingContextMenu,
+html {
+    background-color: rgba(16, 16, 16, 0.86);
+}
+
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: #dc0000;
+        background-color: rgba(0, 0, 0, 0.44);
+    }
+}
+
+.paper-icon-button-light:active:not(:disabled) {
+    color: #DC0000;
+    background-color: rgba(0, 164, 220, 0.2);
+}
+
+.paper-icon-button-light.show-focus:focus {
+    color: #DC0000;
+}
+
+.fab,
+.raised {
+    background: rgba(41, 41, 41, 0.5);
+    border: 0.07em solid #3c3c3c;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.fab:focus,
+.raised:focus {
+    background: #383838;
+}
+
+.button-submit {
+    background: #DC0000;
+    color: #fff;
+}
+
+.button-submit:focus {
+    background: #0cb0e8;
+    color: #fff;
+}
+
+.button-delete {
+    background: rgb(247, 0, 0);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.checkboxLabel {
+    color: inherit;
+}
+
+.checkboxListLabel,
+.inputLabel,
+.inputLabelUnfocused,
+.paperListLabel,
+.textareaLabelUnfocused {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+    color: #DC0000;
+}
+
+.checkboxOutline {
+    border-color: currentColor;
+}
